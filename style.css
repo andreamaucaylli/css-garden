@@ -1,62 +1,106 @@
-
 body {
-	background-image: url("img/mechanics.jpg");
+	background-position: center;
 	background-repeat: no-repeat ;
-	background-color: blue;
+	background-color: white;
 	font-family: Verdana, Georgia,;
+	font-size: 15px;
 	color: white;
 }
 
 header{
+	text-align: justify;
+	font-size: 25px;
 	border-radius: 10px;
-	position: center;
-	float: right;
 	color: black;
 	font-family: Arial;
 	z-index: 1;
-	width: 60%;
+	width: 40%;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	height: 120px;
+	height: 60%;
 	background-color: white;
 	
 }
 
 .summary{
 	border-radius: 10px;
-	position: center;
-	float: left;
+	clear: right;
 	color: black;
 	font-family: Verdana;
-	width: 50%;
-	margin-top: -20px;
-	margin-bottom: 10px;
-	height: 120px;
+	width: 65%;
+	height: 50%;
 	background-color: green;
 }
 
 .preamble{
 	border-radius: 10px;
-	position: center;
-	float: left;
+	clear: right;
 	color: black;
 	font-family: Verdana;
-	width: 50%;
-	margin-top: -20px;
-	margin-bottom: 10px;
-	height: 120px;
+	width: 65%;
+	height: 60%;
 	background-color: blue;	
 }	
 
+.main .supporting{
+	
+	
+}
+
 .explanation{
 	border-radius: 10px;
-	position: center;
-	float: left;
 	color: black;
 	font-family: Verdana;
 	width: 50%;
-	margin-top: -20px;
-	margin-bottom: 10px;
-	height: 120px;
-	background-color: blue;	
+	height: 50%;
+	background-color: orange;	
+}
+
+.participation{
+	border-radius: 10px;
+	color: black;
+	font-family: Verdana;
+	width: 45%;
+	height: 50%;
+	background-color: white;		
+}
+
+.benefits{
+	border-radius: 10px;
+	color: black;
+	font-family: Verdana;
+	width: 12%;
+	height: 50%;
+	background-color: blue;		
+}
+
+.requirements{
+	border-radius: 10px;
+	color: black;
+	font-family: Verdana;
+	width: 50%;
+	height: 50%;
+	background-color: red;		
+}
+
+footer{
+	border-radius: 10px;
+	color: black;
+	font-family: Verdana;
+	width: 50%;
+	height: 50%;
+	background-color: orange;		
+}
+
+aside{
+	text-align: justify;
+	border-radius: 10px;
+	color: black;
+	position:absolute;
+	right: 0;
+	top: 0;
+	font-family: Verdana;
+	width: 30%;
+	height: 70%;
+	background-color: red;		
 }
